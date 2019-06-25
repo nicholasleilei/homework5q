@@ -9,6 +9,6 @@ public static void main(String[] args) {
 		while(i%3==0||i%4==0) {a+=i;break;}
 		i++;
 	}
-		System.out.println(a+"是满足条件的数的和");	
+		System.out.println(a+"是满足条件的数的和         ");	
 }
 }
