@@ -1,4 +1,4 @@
-package 刘怡东625;
+package 刘怡东0625;
 
 public class 输出100以内所有的6的倍数5个一行 {
 	public static void main(String[] args) {

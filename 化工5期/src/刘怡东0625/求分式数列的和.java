@@ -1,4 +1,4 @@
-package 刘怡东625;
+package 刘怡东0625;
 
 public class 求分式数列的和 {
 public static void main(String[] args) {
