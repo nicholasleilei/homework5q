@@ -1,4 +1,4 @@
-package 刘怡东0625;
+package 刘怡东0101;
 
 public class 求1到100里能被3整除或者能被4整除的数的和 {
 public static void main(String[] args) {
