@@ -1,12 +1,10 @@
-package ×÷Òµ6_25;
-
-import java.util.Scanner;
+package ÄôÔÆË§0625;
 
 public class Test01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-       Scanner sc = new Scanner(System.in);
+System.out.println("hellow");
 	}
 
 }
