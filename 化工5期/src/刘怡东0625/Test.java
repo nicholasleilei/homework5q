@@ -1,4 +1,4 @@
-package Áõâù¶«0101;
+package Áõâù¶«0625;
 
 public class Test {
 public static void main(String[] args) {
