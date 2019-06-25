@@ -1,4 +1,4 @@
-package 刘怡东0101;
+package 刘怡东0625;
 
 public class 输出一到一百奇偶数之和 {
 	public static void main(String[] args) {
