@@ -12,6 +12,7 @@ public class SwitchTest01 {
 		int n = sc.nextInt();
 		switch (n) {
 		case 1:
+		case 8:
 			System.out.println("ÐÇÆÚÒ»");
 			break;
 		case 2:
