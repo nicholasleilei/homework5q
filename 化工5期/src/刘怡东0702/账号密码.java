@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
 	String MIMA="1234";
 	String NAME="lyd";
-	boolean a=true;int   i=0;
+	boolean a=true;int  i=0;
 while(a){
 	System.out.println("ÓÃ»§Ãû");String name=sc.next();
 	System.out.println("ÃÜÂë");String mima=sc.next();
