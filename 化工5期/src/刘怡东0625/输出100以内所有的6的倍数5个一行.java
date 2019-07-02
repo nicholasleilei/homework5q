@@ -7,6 +7,7 @@ public class 输出100以内所有的6的倍数5个一行 {
 			if (i % 6 == 0) {
 				System.out.print(i+"\t");
 				j++;
+				
 				if (j % 5 == 0) {
 					System.out.print("\n");
 				}
