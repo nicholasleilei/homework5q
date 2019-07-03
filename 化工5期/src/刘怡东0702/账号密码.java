@@ -17,7 +17,7 @@ public class ÕËºÅÃÜÂë {
 			if (name.equals(NAME) && mima.equals(MIMA)) {
 				System.out.println("»¶Ó­Äú");
 				break;
-			} else {
+			} else { 
 				i++;
 				System.out.println("ÊäÈë´íÎó");
 			}
