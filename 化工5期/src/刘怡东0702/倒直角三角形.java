@@ -7,7 +7,7 @@ public class µ¹Ö±½ÇÈý½ÇÐÎ {
 				for (int j = 0; j <= 10 - i; j++) {
 					System.out.print("*");
 				}
-				System.out.println();
+				System.out.println(  );
 			}
 		
 	}
