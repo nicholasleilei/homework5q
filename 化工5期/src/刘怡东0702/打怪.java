@@ -9,7 +9,7 @@ public static void main(String[] args) {
 	while(i) {
 	int a=(int)(5+Math.random()*(8-5+1));
 	int b=(int)(3+Math.random()*(5-3+1));
-	System.out.print("英雄攻击怪物，怪物损失");
+	System.out.print("英雄攻击怪物，此怪物损失");
 	System.out.print(a);
 	System.out.println("滴血量");
 	B-=a;if(B<=0){System.out.println("怪物死亡,进行下一轮");B=500;continue;}
