@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	int b=(int)(3+Math.random()*(5-3+1));
 	System.out.print("Ó¢ĞÛ¹¥»÷¹ÖÎï£¬´Ë¹ÖÎïËğÊ§");
 	System.out.print(a);
-	System.out.println("µÎÑªÁ¿");
+	System.out.println("µÎÑªÁ¿ ");
 	B-=a;if(B<=0){System.out.println("¹ÖÎïËÀÍö,½øĞĞÏÂÒ»ÂÖ");B=500;continue;}
 	System.out.print("¹ÖÎï¹¥»÷Ó¢ĞÛ£¬Ó¢ĞÛËğÊ§");
 	System.out.print(b);
