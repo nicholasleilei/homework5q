@@ -13,8 +13,7 @@ public class Test04 {
        Scanner sc = new Scanner(System.in);
        
       for(int i=1;i<=3;i++) {
-       System.out.println("ÇëÊäÈëQQºÅÂë£º");
-       String qq = sc.next();
+   
        System.out.println("ÇëÊäÈëÃÜÂë£º");
        String pass= sc.next();
        

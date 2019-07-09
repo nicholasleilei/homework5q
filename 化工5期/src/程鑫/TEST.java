@@ -6,16 +6,18 @@ public static void main(String[] args) {
 	int sum1=0;
 	while(a<=100) {
 	sum1=sum1+a;
-	a+=2;
+	a+=3;
 	}
-	System.out.println("奇数和:"+sum1);
-	int b=1;
+	System.out.println("能被三整除的和："+sum1);
+	int b=0;
 	int sum2=0;
 	while(b<=100) {
 	sum2=sum2+b;
-	b+=2;
+	b+=4;
 	}
-	System.out.println("偶数和:"+sum2);
+	System.out.println("能被四整除的和："+sum2);
+	int sum=sum1+sum2;
+	System.out.println("总和："+sum);
 	
 	
 	
