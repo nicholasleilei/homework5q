@@ -10,7 +10,8 @@ public class Kongd {
 	 * 父类：孔子爹 name  age  teach
 	 * 子类：孔子    name  age  teach  play   
 	 */
- String name ="孔子爹"; int age=40;
+ String name ="孔子爹"; 
+ int age=40;
 
 	
 	
