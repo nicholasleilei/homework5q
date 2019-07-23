@@ -11,6 +11,11 @@ oldman o3=new oldman("ÕÔÁù", "Å®", 75);
 
 oldman[] old= {o,o1,o2,o3};
 o.check(old);
+
+
+olidmanfamily f=new olidmanfamily();
+int sum=f.comein(old);
+System.out.println("¹²½É·Ñ"+sum);
 	}
 
 }

@@ -28,17 +28,6 @@ public oldman(String name, String sex, int age) {
 	this.sex = sex;
 	this.age = age;
 }
-public void check(oldman o) {
-
-		
-		if (o.age>65&&o.sex.equals("ÄÐ")) {
-			System.out.println(o.name+o.age+"Ëê"+1000+"Ôª");
-		}
-		else if(o.age>65&&o.sex.equals("Å®")) {
-			System.out.println(o.name+o.age+"Ëê"+800+"Ôª");
-		}
-	}
-	
 
 void check(oldman[] old) {
 	// TODO Auto-generated method stub

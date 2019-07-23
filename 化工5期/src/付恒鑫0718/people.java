@@ -33,5 +33,4 @@ public people() {
 	// TODO Auto-generated constructor stub
 }
 
-
 }
