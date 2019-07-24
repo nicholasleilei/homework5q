@@ -4,7 +4,7 @@ public class 食堂阿姨 {
 public void feed(学生打饭[] a) {
 	int sum=0;
 	for(学生打饭 b :a) {
-		if(b.getSex()=="男") {
+		if(b.getSex().equals("男")) {
 			sum+=4;
 		}else sum+=2;
 	}
