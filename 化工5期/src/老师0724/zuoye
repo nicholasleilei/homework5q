@@ -5,11 +5,16 @@
    如果相等（不考虑大小写）就输出验证成功 不相等则输出验证码输入错误
 
    
+<<<<<<< HEAD
 
    
 
    
 
+=======
+   
+   
+>>>>>>> branch 'master' of https://github.com/nicholasleilei/homework5q.git
    2. 键盘录入邮箱，检验是否为合法的邮箱地址（
 
 		要求：1.必须有. 和@
@@ -52,8 +57,11 @@
 
      8.统计一个字符串中小串出现的次数
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/nicholasleilei/homework5q.git
      
 
      10.有一个字符串“91_27_46_38_50”
