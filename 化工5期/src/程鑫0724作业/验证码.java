@@ -17,7 +17,7 @@ public static void main(String[] args) {
     'v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L',
     'M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'};
    	System.out.println(arr[i0]+""+arr[i1]+""+arr[i2]+""+arr[i3]);
-   		System.out.println("请输入验证码");
+   		System.out.println("蠢比代码");
       Scanner sc=new Scanner(System.in);
       String q=sc.next();
       String w=sc.next();
@@ -25,6 +25,7 @@ public static void main(String[] args) {
       String t=sc.next();
     if(q.equals(arr[i0])&&w.equals(arr[i1])&&e.equals(arr[i2])&&t.equals(arr[i3]));
     {System.out.println("输入正确");}
+    
 }
 }
 
