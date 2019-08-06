@@ -3,6 +3,7 @@ package 老师0805;
 import java.util.LinkedList;
 import java.util.List;
 
+
 public class List接口 {
 
 	public static void main(String[] args) {
@@ -22,14 +23,14 @@ public class List接口 {
           
           //List  有序  不唯一  允许null
           
- //         ListIterator<String> it = l.listIterator();
-//          while(it.hasNext()) {
-//        	  System.out.println(it.next());
-//          }
-          
- //         while(it.hasPrevious()) {
- //       	  System.out.println(it.previous());
-  //        }
+//          ListIterator<String> it =  l.listIterator();
+////          while(it.hasNext()) {
+////        	  System.out.println(it.next());
+////          }
+//          
+//          while(it.hasPrevious()) {
+//        	  System.out.println(it.previous());
+          }
 	}
 
-}
+
