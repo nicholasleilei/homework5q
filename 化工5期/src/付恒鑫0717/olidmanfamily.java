@@ -18,5 +18,10 @@ public class olidmanfamily {
 	
 	}
 
+	public int comein(oldman[] old) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 
 }
