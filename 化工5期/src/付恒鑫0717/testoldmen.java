@@ -14,8 +14,9 @@ o.check(old);
 
 
 olidmanfamily f=new olidmanfamily();
-int sum=f.comein(old);
-System.out.println("共缴费"+sum);
+
+//int sum=
+//System.out.println("共缴费"+sum);
 	}
 
 }
