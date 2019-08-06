@@ -17,7 +17,7 @@ for(int i=0;i<m.trim().length()/2;i++) {
 		System.out.println("对称");}
 	}
 else {
-	System.out.println("不对称");
+	System.out.println("不对称");break;
 }
 	}
 
