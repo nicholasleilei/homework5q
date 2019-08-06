@@ -13,7 +13,7 @@ student s2=new student("уе5",83.9,66.3,66.9);
 student s3=new student("уе6",53.9,86.3,76.9);
 student s4=new student("уе7",85.9,86.3,76.9);
 
-Set<student>  stu=new TreeSet<>();
+Set<student>  stu=new TreeSet<>(new student());
 stu.add(s);
 stu.add(s1);
 stu.add(s2);

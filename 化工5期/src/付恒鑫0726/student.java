@@ -2,7 +2,7 @@ package ¸¶ºãöÎ0726;
 
 import java.util.Comparator;
 
-public  class student implements Comparable<student>{
+public  class student implements Comparator<student>{
 private String name;
 private Double chinese;
 private Double math;
@@ -47,15 +47,16 @@ public Double  getSum() {
 	
 }
 
-@Override
-public int compareTo(student o) {
-	// TODO Auto-generated method stub
-	return o.getSum().compareTo(this.getSum());
-}
+
 @Override
 public String toString() {
 	double getSum = chinese+math+english;
 	return "student [name=" + name + ", chinese=" + chinese + ", math=" + math + ", english=" + english + ", getsum"+ getSum +"]";
+}
+@Override
+public int compare(student o1, student o2) {
+	// TODO Auto-generated method stub
+	return o2.getSum().compareTo(o1.getSum());
 }
 
 
