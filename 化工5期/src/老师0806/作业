@@ -3,36 +3,6 @@ Set接口作业
 8、编写职工管理程序，某单位为对所有职工的基本信息（职工号、姓名、性别、工资）进行管理，
 包括按照工资排序，根据姓名查找职工，删除职工信息（要求将这三个功能分别写成方法后调用）
 
-List接口作业
-
-3.获取20个1~20之间的随机数，存入List集合，要求不能重复
-ArrayList<Integer> list = new ArrayList();
-		for(int i=1;i<=20;i++){
-			int num = (int)(Math.random()*20)+1;
-			if(!list.contains(num)){
-				list.add(num);
-			}else{
-				i--;
-			}
-		}
-		System.out.println(list);
-
-改进：
-List<Integer> list = new ArrayList<>();
-	 while(true){
-		  int n = (int)(Math.random()*20)+1;
-		  if(!list.contains(n))
-		     list.add(n);
-		  
-		  if(list.size()==20)
-			  break;
-	  }
-	  
-	  System.out.println(list);
-
-4、存储多个员工信息，包括工号，姓名，年龄，入职时间，逐条打印所有员工姓名，并输出员工个数。
-当有员工入职时添加员工信息，当有员工离职时，删除该信息。
-
 public class Employee implements Comparable<Employee>{
   private String number;
   private String name;
@@ -126,6 +96,38 @@ public int compareTo(Employee o) {
 		   	set.remove(e);
 			return set;
 		}
+
+
+List接口作业
+
+3.获取20个1~20之间的随机数，存入List集合，要求不能重复
+ArrayList<Integer> list = new ArrayList();
+		for(int i=1;i<=20;i++){
+			int num = (int)(Math.random()*20)+1;//1-10
+			if(!list.contains(num)){
+				list.add(num);
+			}else{
+				i--;
+			}
+		}
+		System.out.println(list);
+
+改进：
+List<Integer> list = new ArrayList<>();
+	 while(true){
+		  int n = (int)(Math.random()*20)+1;
+		  if(!list.contains(n))
+		     list.add(n);
+		  
+		  if(list.size()==20)
+			  break;
+	  }
+	  
+	  System.out.println(list);
+
+4、存储多个员工信息，包括工号，姓名，年龄，入职时间，逐条打印所有员工姓名，并输出员工个数。
+当有员工入职时添加员工信息，当有员工离职时，删除该信息。
+
 
 
 5. 键盘录入多个数据，以0结束，要求在控制台输出这多个数据中的最大值
