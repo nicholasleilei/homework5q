@@ -10,9 +10,10 @@ public class DBUtils {
 	private final static String URL="jdbc:mysql://localhost:3306/mydb";
 	private final static String USERNAME="root";
 	private final static String PASSWORD="root";
+	private static Connection conn=null;
+	private static Statement stmt=null;
 	
 	public static Connection getConn() {
-		Connection conn=null;
 		try {
 			Class.forName(DRIVER);
 			conn = DriverManager.getConnection(URL, USERNAME, PASSWORD);
@@ -24,7 +25,6 @@ public class DBUtils {
 	}
 	
 	public static Statement getStmt() {
-		Statement stmt=null;
 		try {
 			stmt = getConn().createStatement();
 		} catch (SQLException e) {
@@ -43,5 +43,18 @@ public class DBUtils {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
+	}
+	public void closeAll() {
+		closeConn();
+		// бнбн
+	}
+	public void closeConn() {
+			try {
+				if(conn!=null)
+				conn.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 	}
 }
