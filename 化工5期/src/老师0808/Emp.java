@@ -51,5 +51,4 @@ public int compareTo(Emp o) {
 public String toString() {
 	return "Emp [no=" + no + ", name=" + name + ", sex=" + sex + ", salary=" + salary + "]";
 }
-  
 }
